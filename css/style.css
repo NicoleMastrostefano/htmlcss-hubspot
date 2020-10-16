@@ -253,8 +253,9 @@ p {
 }
 
 .text-horiz-box p {
-  margin-right: 20%;
+  margin-right: 30%;
 }
+
 .text-horiz-box h4 {
   text-transform: uppercase;
   margin-top: 18px;
