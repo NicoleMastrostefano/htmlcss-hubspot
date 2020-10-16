@@ -9,8 +9,8 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-.header-top{
-  padding: 1%;
+.header-top {
+  padding: 1.2%;
   width: 100%;
   height: 55px;
   background-color:rgb(244,249,253);
@@ -23,34 +23,45 @@ body {
   width: 70%;
   margin: auto;
   position: relative;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
 }
 
 .top-right {
+  padding:2px;
   position: absolute;
   right: 0;
   top: 0;
 }
 
-.fas.fa-search{
+.fas.fa-search {
   font-size: 10px;
   color: rgb(38,187,166);
   padding-right: 15px;
 }
 
-.top-right input{
-  padding:4px;
-  border-radius: 3px;
-  color: white;
+.button {
+  text-decoration: none;
   background-color: #ff7a59;
-  border-color: orange;
+  border-radius: 3px;
+  font-size: 12px;
+  color: white;
+}
+
+.top-right .button {
+  padding: 4px;
   margin-left: 15px;
 }
-/* spreddare i due input */
+
+.btn-white {
+  font-size: 12px;
+  background-color: white;
+  color: #ff7a59;
+  border: 1px solid #ff7a59;
+}
 
 ul#head  {
   list-style: none;
+  padding-top:2px;
+  display: inline-block;
 }
 
 ul#head li {
@@ -106,12 +117,13 @@ ul#menu li {
   top: 0;
 }
 
-
 .header-middle {
   width: 100%;
-  height: 500px;
+  height: 480px;
+  background-color: #FFF2ED;
   background-image: url(../img/jumbotron.png);
   background-size: cover;
+  background-position: center;
 }
 
 .jumbobox {
@@ -142,7 +154,7 @@ ul#menu li {
   margin-bottom: 20px;
   }
 
-.jumbotext a {
+.jumbotext .button {
   font-size: 10px;
   font-weight: bold;
   background-color: #ff7a59;
@@ -157,8 +169,8 @@ ul#menu li {
 
 .header-bottom {
   width: 100%;
-  height: 40px;
-  background-color: rgba(000, 244, 244, 0.4);
+  height: 55px;
+  background-color: #92E3DA;
   border-top:1px solid black;
   border-bottom: 1px solid black;
 }
