@@ -178,6 +178,7 @@ ul#menu li {
 .main-container{
    margin: auto;
    width: 100%;
+
 }
 
 main section{
@@ -213,18 +214,29 @@ main section::after {
     color: #667688;
     font-size: 10px;
     line-height: 18px;
-
 }
-
-
 
 .horiz-box {
   width: 100%;
-  height: 250px;
+  height: 240px;
   background-color: white;
   margin-bottom: 5px;
 }
 
+.horiz-box .logo-horiz-box {
+  height: 100%;
+  width: 30%;
+  border: 1px solid black;
+  position: relative;
+}
+
+.logo-horiz-box img {
+  height: 85px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-80%);
+}
 /* valutare se creare 3 colonne verticali uguali usando un solo selettore */
 
 .left-col {
