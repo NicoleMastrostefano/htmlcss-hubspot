@@ -7,6 +7,7 @@
 body {
   background-color: rgb(244,249,253);
   font-family: 'Noto Sans', sans-serif;
+  color: #2f4054;
 }
 
 .header-top {
@@ -125,12 +126,12 @@ ul#menu li {
   background-size: cover;
   background-position: center;
 }
+/* mettere img in html e modificare dimensioni */
 
 .jumbobox {
   width: 70%;
   margin: auto;
   height: 300px;
-  /* border: 1px solid black; */
   position: relative;
   top:50px;
 }
@@ -143,14 +144,13 @@ ul#menu li {
    font-size:36px;
    font-weight: 500px;
    margin-bottom: 20px;
-   color: #2f4054;
+
   }
 
 .jumbotext p {
   color: #667688;
   font-size: 10px;
   line-height: 18px;
-  font-weight: bold;
   margin-bottom: 20px;
   }
 
@@ -191,10 +191,37 @@ main section::after {
    clear: both;
 }
 
+#horiz-box-up {
+  width: 58%;
+  height: 250px;
+  background-color:rgb(244,249,253);
+  text-align: center;
+  margin: auto;
+}
+
+.integrations img {
+  height: 85px;
+  margin-top: 30px;
+}
+
+.integrations h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+
+}
+.integrations p {
+    color: #667688;
+    font-size: 10px;
+    line-height: 18px;
+
+}
+
+
+
 .horiz-box {
   width: 100%;
-  height: 200px;
-  background-color: green;
+  height: 250px;
+  background-color: white;
   margin-bottom: 5px;
 }
 
