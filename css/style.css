@@ -45,6 +45,7 @@ body {
   border-radius: 3px;
   font-size: 12px;
   color: white;
+  display: inline-block;
 }
 
 .top-right .button {
@@ -157,12 +158,7 @@ ul#menu li {
 .jumbotext .button {
   font-size: 10px;
   font-weight: bold;
-  background-color: #ff7a59;
-  color: white;
-  border-radius: 3px;
   padding: 15px 30px;
-  text-decoration: none;
-  display: inline-block;
   margin-bottom: 20px;
   }
 
@@ -226,16 +222,25 @@ main section::after {
 .horiz-box .logo-horiz-box {
   height: 100%;
   width: 30%;
-  border: 1px solid black;
   position: relative;
 }
 
 .logo-horiz-box img {
-  height: 85px;
+  height: 80px;
   position: absolute;
   top:50%;
   left: 50%;
   transform: translate(-50%,-80%);
+
+}
+.logo-horiz-box .button {
+  font-size: 10px;
+  font-weight: bold;
+  padding: 12px 25px;
+  position: absolute;
+  top:65%;
+  left: 28%;
+
 }
 /* valutare se creare 3 colonne verticali uguali usando un solo selettore */
 
