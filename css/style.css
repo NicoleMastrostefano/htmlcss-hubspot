@@ -60,7 +60,7 @@ body {
   border: 1px solid #ff7a59;
 }
 
-ul#head  {
+ul {
   list-style: none;
   padding-top:2px;
   display: inline-block;
@@ -90,6 +90,7 @@ ul#menu li {
   padding-left: 15px;
   font-size: 10px;
 }
+
 
 .header-nav{
   width: 100%;
@@ -259,9 +260,38 @@ p {
 .text-horiz-box h4 {
   text-transform: uppercase;
   margin-top: 18px;
+  display: inline-block;
 }
 
+.text-horiz-box hr {
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 35px;
+}
+
+.fa-check-circle{
+  color: #ff7a59;
+  font-size: 10px;
+}
+
+#feature-list li {
+  line-height: 50px;
+  border-right: 0px;
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 10px;
+}
+
+#feature-list i {
+  padding-right: 2px;
+}
+
+
+
 /* valutare se creare 3 colonne verticali uguali usando un solo selettore */
+
+
 
 .left-col {
   width: 30%;
