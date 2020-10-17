@@ -142,23 +142,21 @@ ul#menu li {
 }
 
 .jumbotext h1 {
-   font-size:36px;
-   font-weight: 400px;
-   margin-bottom: 20px;
-
-  }
+  font-size:36px;
+  font-weight: 400px;
+  margin-bottom: 20px;
+}
 
 .jumbotext p {
   margin-bottom: 20px;
-  }
+}
 
 .jumbotext .button {
   font-size: 10px;
   font-weight: bold;
   padding: 15px 30px;
   margin-bottom: 20px;
-  }
-
+}
 
 .header-bottom {
   width: 100%;
@@ -169,8 +167,8 @@ ul#menu li {
 }
 
 .main-container{
-   margin: auto;
-   width: 100%;
+  margin: auto;
+  width: 100%;
 
 }
 
@@ -180,9 +178,9 @@ main section{
 }
 
 main section::after {
-   content: "";
-   display: table;
-   clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 #horiz-box-up {
@@ -191,6 +189,7 @@ main section::after {
   background-color:rgb(244,249,253);
   text-align: center;
   margin: auto;
+  margin-bottom: 15px;
 }
 
 .integrations img {
@@ -227,7 +226,6 @@ p {
   height: 80px;
   margin-left: 85px;
   margin-top: 60px;
-
 }
 
 .logo-horiz-box .button {
@@ -245,8 +243,8 @@ p {
   padding: 12px 25px;
   display: inline-block;
   margin-top: 30px;
+}
 
-  }
 .text-horiz-box {
   width: 67.5%;
   height: 100%;
@@ -320,8 +318,8 @@ p {
 }
 
  .box-logo hr {
-   width: 80%;
-   margin-left: 25px;
+  width: 80%;
+  margin-left: 25px;
  }
 
 .vert-col li {
@@ -355,7 +353,7 @@ main section:last-child {
 
 #azure-box-up h2 {
   color: white;
-  padding: 30px 40px;
+  padding: 30px 45px;
   font-size: 22px;
 }
 
@@ -369,11 +367,25 @@ main section:last-child {
   width: 70%;
   margin: auto;
   height: 200px;
-  border: 1px solid white;
   margin-top: 50px;
 }
 
+#box-four{
+  border-right: 0px;
+}
 
+.grid-box {
+  width: 25%;
+  height: 100%;
+  float: left;
+  border-right: 1px solid white;
+}
+
+.grid-box-down {
+  width: 100%;
+  height: 50%;
+  border-bottom: 1px solid white;
+}
 
 .white-box {
   width: 100%;
