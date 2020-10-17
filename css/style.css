@@ -370,7 +370,6 @@ main section:last-child {
   height: 220px;
   margin-top: 50px;
   display: block;
-  border: 1px solid white;
 }
 
 #box-four{
@@ -394,8 +393,8 @@ main section:last-child {
   font-size: 12px;
   vertical-align: super;
 
-
 }
+
 .text p {
   color:white;
   font-size: 8px;
@@ -414,13 +413,6 @@ main section:last-child {
   width: 100%;
   border-top: 1px solid white;
 }
-
-
-
-
-
-
-
 
 .white-box {
   width: 100%;
