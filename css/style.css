@@ -264,7 +264,7 @@ p {
  h4 {
   text-transform: uppercase;
   margin-top: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   display: inline-block;
 }
 
@@ -364,35 +364,63 @@ main section:last-child {
 }
 
 #azure-box-down {
+  text-align: center;
   width: 70%;
   margin: auto;
-  height: 200px;
+  height: 220px;
   margin-top: 50px;
-
+  display: block;
+  border: 1px solid white;
 }
 
 #box-four{
   border-right: 0px;
 }
 
-#box-one img {
-  height: 20px;
+.grid-box img{
+  height: 25px;
+  margin-top: 10px;
+}
+
+.numbers h2 {
+  color: white;
+  font-size: 26px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.numbers span {
+  color: white;
+  font-size: 12px;
+  vertical-align: super;
 
 
 }
+.text p {
+  color:white;
+  font-size: 8px;
+  margin-bottom: 15px;
+}
+
 .grid-box {
   width: 25%;
   height: 100%;
-  display: inline-block;
   float: left;
   border-right: 1px solid white;
 }
 
 .grid-box-down {
+  display: block;
   width: 100%;
-  height: 50%;
-  border-bottom: 1px solid white;
+  border-top: 1px solid white;
 }
+
+
+
+
+
+
+
 
 .white-box {
   width: 100%;
