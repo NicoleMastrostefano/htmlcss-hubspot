@@ -151,7 +151,7 @@ ul#menu li {
   margin-bottom: 20px;
 }
 
-.jumbotext .button {
+.gethub {
   font-size: 10px;
   font-weight: bold;
   padding: 15px 30px;
@@ -339,7 +339,7 @@ main section:last-child {
 
 .azure-box {
   width: 100%;
-  height: 450px;
+  height: 500px;
   margin: auto;
   background: linear-gradient(to right, #00ABB6 ,#00BDA5);
   margin-top: 30px;
@@ -353,7 +353,7 @@ main section:last-child {
 
 #azure-box-up h2 {
   color: white;
-  padding: 30px 20px;
+  padding: 50px 20px;
   font-size: 20px;
 }
 
@@ -369,7 +369,6 @@ main section:last-child {
   margin: auto;
   height: 220px;
   margin-top: 50px;
-  display: block;
 }
 
 #box-four{
@@ -392,7 +391,6 @@ main section:last-child {
   color: white;
   font-size: 12px;
   vertical-align: super;
-
 }
 
 .text p {
@@ -416,9 +414,47 @@ main section:last-child {
 
 .white-box {
   width: 100%;
-  height: 450px;
+  height: 500px;
   background-color: white;
 }
+
+#white-box {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+}
+
+#white-box-left {
+  width: 40%;
+  height:100%;
+  float: left;
+}
+
+#white-box-right{
+  width: 65%;
+  height: 100%;
+  float: right;
+}
+
+#white-box-left-up {
+  width: 40%;
+  margin: 10% 20%;
+}
+
+#white-box-left-down{
+  width: 100%;
+}
+
+#white-box-left p {
+padding-top: 20px;
+margin-bottom: 20px;
+}
+
+
+
+
+
+
 
 footer {
   width: 100%;
