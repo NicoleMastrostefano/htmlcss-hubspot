@@ -165,14 +165,9 @@ ul#menu li {
   border-bottom: 1px solid black;
 }
 
-.main-container{
+.container70 {
   margin: auto;
-  width: 100%;
-}
-
-main section{
   width: 70%;
-  margin: auto;
 }
 
 main section::after {
@@ -219,7 +214,7 @@ p {
   float: left;
   position: relative;
   top: 60px;
-  left: 65px;
+  left: 80px;
 }
 
 .logo-horiz-box img {
@@ -331,10 +326,6 @@ main i {
   padding-right: 8px;
 }
 
-main section:last-child {
-  width: 100%
-}
-
 .azure-box {
   width: 100%;
   height: 500px;
@@ -427,33 +418,64 @@ main section:last-child {
 }
 
 #white-box-right{
-  width: 65%;
+  width: 50%;
   height: 100%;
-  float: right;
+  float: left;
 }
 
 #white-box-left-up {
   width: 40%;
-  margin: 10% 20%;
+  margin: 10% ;
 }
+#white-box-left-up h2{
+  font-size: 32px;
 
+}
 #white-box-left-down{
   width: 100%;
 }
 
 #white-box-left p {
-padding-top: 20px;
-margin-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
 }
 
+#logos-box {
+  margin-top: 32px;
 
+}
+.logos img {
+  width: 20%;
+  height: auto;
+  padding-right: 22px;
+  margin-bottom: 15px;
+}
 
+#purple, #subaru ,#crowd, #classpass, #vmware {
+  margin-bottom: 0;
+}
 
+#crowd, #vmware {
+  vertical-align: super;
+}
 
+#purple {
+  vertical-align: sub;
+}
 
+#wistia {
+  vertical-align: bottom;
+}
+
+.picture-box img {
+  width: 50%;
+  height: auto;
+  float: right;
+  margin-top: 8%;
+}
 
 footer {
   width: 100%;
-  height: 300px;
+  height: 500px;
   background-color: #0060A0;
 }
