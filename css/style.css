@@ -478,7 +478,6 @@ footer {
   width: 70%;
   height: 70%;
   margin: auto;
-  border: 1px solid black;
 }
 
 .list-box {
@@ -512,4 +511,10 @@ footer {
   font-size: 16px;
   color: #CBD6E2;
   padding-right: 15px;
+}
+.footer-bottom {
+  width: 70%;
+  height: 30%;
+  margin: auto;
+  border: 1px solid black;
 }
