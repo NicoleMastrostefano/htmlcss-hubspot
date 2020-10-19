@@ -549,7 +549,7 @@ footer {
 
 .logo-copyright-box {
   width: 50%;
-  height: 100%;
+
   color: white;
   float: left;
   margin-top: 3%;
@@ -568,6 +568,7 @@ footer {
 }
 
 .policy-box li {
+  font-size: 12px;
   display: inline-block;
   padding-left: 15px;
 }
