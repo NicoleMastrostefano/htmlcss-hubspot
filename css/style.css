@@ -47,6 +47,10 @@ body {
   display: inline-block;
 }
 
+.button:hover {
+  background-color: #FF9F71;
+}
+
 .top-right .button {
   padding: 4px;
   margin-left: 15px;
@@ -57,6 +61,10 @@ body {
   background-color: white;
   color: #ff7a59;
   border: 1px solid #ff7a59;
+}
+
+.btn-white:hover {
+  background-color: #FFE1B0;
 }
 
 ul {
@@ -206,7 +214,6 @@ p {
 }
 
 .horiz-box .logo-horiz-box {
-
   width: 30%;
   float: left;
   position: relative;
@@ -504,19 +511,22 @@ footer {
   color: #2D3F51;
   padding: 1px 10px;
   margin-top: 5px;
-
+}
+.list-box a:hover {
+  background-color: #6c7e91;
 }
 
 .icons-row i {
   margin-top: 18px;
   font-size: 16px;
   padding-right: 15px;
+  cursor: pointer;
 }
+
 .footer-bottom {
   width: 70%;
   height: 30%;
   margin: auto;
-  border: 1px solid black;
 }
 
 .languages {
@@ -528,4 +538,36 @@ footer {
   font-size: 14px;
   display: inline-block;
   padding-right: 15px;
+}
+
+.logo-copyright-box img {
+  width: 20%;
+  margin-bottom: 1%;
+  display: block;
+  opacity: 0.8;
+}
+
+.logo-copyright-box {
+  width: 50%;
+  height: 100%;
+  color: white;
+  float: left;
+  margin-top: 3%;
+}
+
+.policy-box {
+  color: #CBD6E2;
+  width: 50%;
+  float: right;
+  text-align: right;
+  margin-top: 2%;
+}
+
+.policy-box a {
+  color: #CBD6E2;
+}
+
+.policy-box li {
+  display: inline-block;
+  padding-left: 15px;
 }
