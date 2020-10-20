@@ -13,11 +13,11 @@ body {
 .header-top {
   padding: 1.2%;
   width: 100%;
-  height: 55px;
+  height: 58px;
   background-color:rgb(244,249,253);
+  border-bottom: 1px solid #667688;
   position:fixed;
   top: 0;
-  border-bottom: 1px solid #667688;
 }
 
 .top-left {
@@ -99,9 +99,10 @@ ul#menu li {
 
 .header-nav{
   width: 100%;
-  height: 55px;
+  height: 58px;
   background-color: white;
   margin-top: 55px;
+  padding: 3px;
 }
 
 .nav-left {
@@ -126,12 +127,25 @@ ul#menu li {
 .header-middle {
   width: 100%;
   height: 500px;
-  background-color: #FFF2ED;
+  background-color: #FFF3ED;
   background-image: url(../img/jumbotron.png);
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
+  background-position: top right;
+  background-repeat: no-repeat;
+  position: relative;
 }
-/* mettere img in html e modificare dimensioni */
+
+.header-middle::after{
+  content: "";
+  width: 100%;
+  height: 58px;
+  background-color: #92E3DA;
+  border-top:1px solid black;
+  border-bottom: 1px solid black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 
 .jumbobox {
   width: 70%;
@@ -160,14 +174,6 @@ ul#menu li {
   font-weight: bold;
   padding: 15px 30px;
   margin-bottom: 20px;
-}
-
-.header-bottom {
-  width: 100%;
-  height: 55px;
-  background-color: #92E3DA;
-  border-top:1px solid black;
-  border-bottom: 1px solid black;
 }
 
 .container70 {
@@ -237,9 +243,9 @@ p {
 .learn-button{
   font-size: 10px;
   font-weight: bold;
-  padding: 12px 25px;
   display: inline-block;
   margin-top: 30px;
+  padding: 12px 25px;
 }
 
 .text-horiz-box {
@@ -259,16 +265,16 @@ p {
 
  h4 {
   text-transform: uppercase;
+  display: inline-block;
   margin-top: 18px;
   margin-bottom: 20px;
-  display: inline-block;
 }
 
 .text-horiz-box hr {
   width: 50%;
-  display: inline-block;
   vertical-align: middle;
   margin-left: 35px;
+  display: inline-block;
 }
 
 .fa-check-circle{
@@ -290,9 +296,9 @@ p {
   width: 30%;
   height: 430px;
   background-color: white;
+  text-align: center;
   margin-top: 10px;
   margin-right: 5%;
-  text-align: center;
   float: left;
 }
 
@@ -321,8 +327,8 @@ p {
 .vert-col li {
   font-size: 10px;
   text-align: left;
-  margin-right: 80px;
   line-height: 0px;
+  margin-right: 80px;
 }
 
 main i {
@@ -532,8 +538,8 @@ footer {
 }
 
 .languages {
-   width: 100%;
-   text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 .languages li {
@@ -552,16 +558,16 @@ footer {
 .logo-copyright-box {
   width: 50%;
   color: white;
-  float: left;
   margin-top: 3%;
+  float: left;
 }
 
 .policy-box {
   color: #CBD6E2;
   width: 50%;
-  float: right;
   text-align: right;
   margin-top: 2%;
+  float: right;
 }
 
 .policy-box a {
@@ -592,12 +598,12 @@ footer {
 }
 
 #chat p {
-  padding: 3% 1%;
   background-color: white;
   display: inline-block;
   box-shadow: 1px 1px 1px;
   border-radius: 2px;
   text-align: center;
+  padding: 3% 1%;
 }
 
 #chat img {
@@ -615,16 +621,16 @@ footer {
 }
 
 #chat-button {
+  width: 40px;
+  height: 40px;
   background-color:#2D3F51;
   text-align: center;
   padding: 1%;
+  box-shadow:1px 1px 1px;
+  border-radius: 50%;
   position: absolute;
   right: 0;
   bottom: 0;
-  box-shadow:1px 1px 1px;
-  border-radius: 50%;
-  height: 40px;
-  width: 40px
 }
 
 #chat-button i {
