@@ -480,6 +480,8 @@ footer {
   height: 500px;
   color: #CBD6E2;
   background-color: #2D3F51;
+  margin-bottom: 1%;
+  position: relative;
 }
 
 .footer-top {
@@ -549,7 +551,6 @@ footer {
 
 .logo-copyright-box {
   width: 50%;
-
   color: white;
   float: left;
   margin-top: 3%;
@@ -571,4 +572,61 @@ footer {
   font-size: 12px;
   display: inline-block;
   padding-left: 15px;
+}
+
+.chat-support-box {
+  width: 180px;
+  height: 210px;
+  background-color:  #CBD6E2;
+  margin-left: 20px;
+  box-shadow: -2px 2px 0px 0px rgba(66,98,130,1);
+  position:absolute;
+  right: 0%;
+  bottom: 0%;
+}
+
+#chat {
+  width: 90%;
+  margin: 40% auto;
+  position: relative;
+}
+
+#chat p {
+  padding: 3% 1%;
+  background-color: white;
+  display: inline-block;
+  box-shadow: 1px 1px 1px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+#chat img {
+  width: 15%;
+  position: absolute;
+  right: 40%;
+  bottom: 95%;
+}
+
+#chat div{
+  color: #CBD6E2;
+  position: absolute;
+  left: 95%;
+  top: 0%;
+}
+
+#chat-button {
+  background-color:#2D3F51;
+  text-align: center;
+  padding: 1%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  box-shadow:1px 1px 1px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px
+}
+
+#chat-button i {
+  vertical-align: -webkit-baseline-middle;
 }
